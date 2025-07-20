@@ -307,14 +307,10 @@ button {
   margin-bottom: 0;
 }
 
-.container-footer {
-  padding: 100px 0;
-}
-
 .page-footer {
   background-color: #2e2f42;
   max-width: 100%;
-  padding: 0;
+  padding: 100px 0;
 }
 
 .footer-logo {
