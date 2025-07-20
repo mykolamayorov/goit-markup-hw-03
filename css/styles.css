@@ -170,12 +170,13 @@ button {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .features-list {
@@ -306,20 +307,22 @@ button {
 }
 
 .container-footer {
-  max-width: 100%;
-  padding: 0;
+  padding: 100px 0;
 }
 
 .page-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
-  padding-left: 156px;
+  max-width: 100%;
+  padding: 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
